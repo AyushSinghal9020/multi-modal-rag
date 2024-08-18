@@ -1,12 +1,32 @@
----
-title: Bimbola Project Iter4
-emoji: 🚀
-colorFrom: green
-colorTo: green
-sdk: gradio
-sdk_version: 4.37.2
-app_file: app.py
-pinned: false
----
+This is a Multi-Modal RAG Chatbot, you can chat with your documents 
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+* Supported Documents
+  * Docs
+    * PDF
+    * CSV
+    * PPTX
+    * DOCX
+  * Image
+    * JPEG
+    * JPG
+    * PNG
+  * Video
+    * MP4
+  * Audio
+    * MP3
+   
+Steps to proceed 
+
+* Clone this repo
+
+Run
+```
+pip install -r requirements.txt
+```
+
+* Put your files in the `upload folder`
+
+Run 
+```
+python app.py
+```
